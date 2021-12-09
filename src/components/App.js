@@ -5,8 +5,8 @@ const App = () => {
   const [marco, setMarco] = useState(true);
   return (
     <div id="main">
-      <h1 id="marco- polo">{marco ? "Marco" : "Polo"}</h1>
-      <button id="marco- polo- toggler" onClick={() => setMarco(!marco)}>
+      <h1 id="marco-polo">{marco ? "Marco" : "Polo"}</h1>
+      <button id="marco-polo-toggler" onClick={() => setMarco(!marco)}>
         {marco ? "Polo" : "Marco"}
       </button>
     </div>
